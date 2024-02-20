@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NEWS_ITEMS } from '../data.js'; // Make sure this import points to your data file
+import { NEWS_ITEMS } from '../data.js'; 
 import './NewsContent.css';
 
 const NewsContent = () => {

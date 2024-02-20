@@ -12,7 +12,7 @@ import iconPosition from './assets/position.svg';
 export const CARDS = [
     {
         title: "Robotics",
-        description: "I write software for robotic systems and field test them in extreme terrains",
+        description: "I write software for robotic systems and field test it in extreme terrains",
         image: iconArm
     },
     {

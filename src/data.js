@@ -12,17 +12,17 @@ import iconPosition from './assets/position.svg';
 export const CARDS = [
     {
         title: "Robotics",
-        description: "I have experience developing and deploying robotics software at NASA/JPL",
+        description: "I like developing robotic systems and field testing them in extreme terrains",
         image: iconArm
     },
     {
         title: "Autonomy",
-        description: "I worked on system-level autonomy at NASA/JPL",
+        description: "My research is focused on system-level autonomy and machine learning",
         image: planningLogo
     },
     {
-        title: "Prototyping",
-        description: "I prototyped plasma drilling technology at NASA/JPL",
+        title: "Building",
+        description: "I enjoy prototyping and building both software and hardware products",
         image: hammerLogo
     }
 ]

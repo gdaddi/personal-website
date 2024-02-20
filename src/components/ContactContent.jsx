@@ -5,7 +5,7 @@ import './ContactContent.css';
 
 const ContactContent = () => (
     <div>
-      <p>Send me a message <a href="mailto:guglielmo.daddi.96@gmail.com">here</a>.</p>
+      <p><a href="mailto:guglielmo.daddi.96@gmail.com">Reach out</a></p>
       <a href="https://github.com/gdaddi" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
         <FontAwesomeIcon icon={faGithub} className="social-icon" />
       </a>

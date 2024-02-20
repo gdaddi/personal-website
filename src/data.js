@@ -71,7 +71,7 @@ export const NEWS_ITEMS = [
       title: "Visiting Researcher at NASA/JPL",
       date: "Nov, 2021",
       icon: iconPosition,
-      description: "I joined JPL for a second time to work on Autonomy software for the Exobiology Extant Life Surveyor (EELS).",
+      description: "I built autonomy software for the Exobiology Extant Life Surveyor (EELS) project.",
       link: "https://www.jpl.nasa.gov/robotics-at-jpl/eels"
     },
     {
@@ -84,7 +84,7 @@ export const NEWS_ITEMS = [
         title: "Visiting Researcher at NASA/JPL",
         date: "Oct, 2019",
         icon: iconPosition,
-        description: "I joined JPL to work to develop plasma drilling technology.",
+        description: "I focused on plasma drilling technology R&D.",
       },
       {
         title: "Ms.C. Student at PoliTo",

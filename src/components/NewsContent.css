@@ -39,7 +39,7 @@
   border: 1px solid #3d429daa;
   padding: 8px;
   margin-bottom: 10px;
-  border-radius: 4px;
+  border-radius: 10px;
   background-color: #212121;
   transition: background-color 0.3s ease;
   cursor: pointer;

@@ -46,7 +46,7 @@ function App() {
 
       </section>
       <small>
-        The source for this website can be found <a href='https://github.com/gdaddi/personal-website'>here</a>.
+        The source code for this website can be found <a href='https://github.com/gdaddi/personal-website'>here</a>.
       </small>
     </>
   )

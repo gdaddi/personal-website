@@ -19,11 +19,11 @@ function App() {
   return (
     <>
       <h1>Hello</h1>
-      
-      <section id="fact-card">
       <h3>
         I am Guglielmo
       </h3>
+
+      <section id="fact-card">
       <ul>
         {CARDS.map((cardItem) => <FactCard key={cardItem.title} {...cardItem} />)}
       </ul>
@@ -32,7 +32,6 @@ function App() {
       <section id="tab">
         <menu>
          <TabButton isSelected={selectedTab === 'tab1'} onSelect={() => handleSelect('tab1')}>News</TabButton>
-         <TabButton isSelected={selectedTab === 'tab2'} onSelect={() => handleSelect('tab2')}>Resume</TabButton>
          <TabButton isSelected={selectedTab === 'tab3'} onSelect={() => handleSelect('tab3')}>Contact</TabButton>
         </menu>
       

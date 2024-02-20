@@ -2,7 +2,7 @@ import React from 'react';
 
 const ResumeContent = () => (
     <div>
-      <p> Find my remue here</p>
+      <p> Find my resume here</p>
     </div>
   );
 

@@ -1,0 +1,50 @@
+.news-item {
+  border: 1px solid #646cffaa;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #212121;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  width: 600px; /* Fixed width */
+  max-width: 100%; /* Ensures it doesn't overflow its parent container */
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+.news-item-content {
+  display: flex;
+  justify-content: space-between; /* Aligns children to start and end */
+  align-items: center;
+  width: 100%;
+}
+
+.news-content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Allows the content to use available space, pushing the date to the right */
+}
+
+.news-date {
+  padding: 0 10px;
+  color: #fff;
+  white-space: nowrap; /* Prevents the date from wrapping */
+}
+
+.news-description {
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 0.9em;
+  width: 100%; /* Ensures it fills the width */
+  overflow-wrap: break-word; /* Allows text to wrap within the container */
+}
+
+.news-title-link {
+  color: #fff;
+  text-decoration: none;
+  overflow-wrap: break-word; /* Ensures the link text wraps */
+}
+
+.news-title-link:hover {
+  text-decoration: underline;
+}

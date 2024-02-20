@@ -52,26 +52,26 @@ export const NEWS_ITEMS = [
       title: "Field test at Athabasca Glacier",
       date: "Feb, 2020",
       icon: iconField,
-      description: "The team field tested the EELS robot for three weeks on the Athabasca Glacier in Alberta, Canada.",
+      description: "The EELS robot was field tested for three weeks on the Athabasca Glacier, AB, Canada.",
       link: 'https://www.cbc.ca/news/canada/edmonton/alberta-glacier-used-as-nasa-training-ground-for-robotic-snake-that-will-explore-outer-space-1.7034061',
     },
     {
         title: "Field test at Big Bear",
         date: "Mar, 2023",
         icon: iconField,
-        description: "The team field tested the EELS robot for three days at Big Bear Lake, CA, USA.",
+        description: "The EELS robot was field tested for three days at Big Bear, CA, USA.",
     },
     {
         title: "Field test at Table Mountain",
         date: "Dec, 2022",
         icon: iconField,
-        description: "The team field tested the EELS robot for two days at JPL's Table Mountain facility in CA, USA.",
+        description: "The EELS robot was field tested for two days at Table Mountain, CA, USA.",
     },
     {
       title: "Visiting Researcher at NASA/JPL",
       date: "Nov, 2021",
       icon: iconPosition,
-      description: "I built autonomy software for the Exobiology Extant Life Surveyor (EELS) project.",
+      description: "In the Mission Planning and Software integration teams for the EELS project.",
       link: "https://www.jpl.nasa.gov/robotics-at-jpl/eels"
     },
     {
@@ -84,7 +84,7 @@ export const NEWS_ITEMS = [
         title: "Visiting Researcher at NASA/JPL",
         date: "Oct, 2019",
         icon: iconPosition,
-        description: "I focused on plasma drilling technology R&D.",
+        description: "Focusing on plasma drilling and melt probe R&D.",
       },
       {
         title: "Ms.C. Student at PoliTo",

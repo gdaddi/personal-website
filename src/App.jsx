@@ -20,7 +20,7 @@ function App() {
     <>
       <h1>Hello</h1>
       <h3>
-        I am Guglielmo
+        I am Guglielmo Daddi
       </h3>
 
       <section id="fact-card">

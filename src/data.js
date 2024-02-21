@@ -17,11 +17,11 @@ export const CARDS = [
     },
     {
         title: "Autonomy",
-        description: "My research is focused on system-level autonomy and machine learning",
+        description: "My research is focused on system-level autonomy, and machine learning",
         image: planningLogo
     },
     {
-        title: "Building",
+        title: "Making",
         description: "I enjoy prototyping and building both software and hardware products",
         image: hammerLogo
     }

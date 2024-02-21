@@ -42,7 +42,7 @@ export const TABCONTENTS = {
 
 export const NEWS_ITEMS = [
     {
-        title: "EELS paper presented at IROS",
+        title: "EELS paper accepted at IROS",
         date: "Oct, 2023",
         icon: iconPaper,
         description: "And it was best paper finalist!",
@@ -73,6 +73,13 @@ export const NEWS_ITEMS = [
       icon: iconPosition,
       description: "In the Mission Planning and Software integration teams for the EELS project.",
       link: "https://www.jpl.nasa.gov/robotics-at-jpl/eels"
+    },
+    {
+        title: "Published my first journal paper",
+        date: 'Apr, 2021',
+        icon: iconPaper,
+        description: "On investigating plasma drilling to enhance melt probes.",
+        link: "https://doi.org/10.2514/1.T6244"
     },
     {
         title: "Ph.D. Student at PoliTo",

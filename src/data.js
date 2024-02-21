@@ -42,7 +42,7 @@ export const TABCONTENTS = {
 
 export const NEWS_ITEMS = [
     {
-        title: "EELS paper accepted at IROS",
+        title: "EELS paper at IROS",
         date: "Oct, 2023",
         icon: iconPaper,
         description: "And it was best paper finalist!",

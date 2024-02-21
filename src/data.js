@@ -56,18 +56,6 @@ export const NEWS_ITEMS = [
       link: 'https://www.cbc.ca/news/canada/edmonton/alberta-glacier-used-as-nasa-training-ground-for-robotic-snake-that-will-explore-outer-space-1.7034061',
     },
     {
-        title: "Field test at Big Bear",
-        date: "Mar, 2023",
-        icon: iconField,
-        description: "The EELS robot was field tested for three days at Big Bear, CA, USA.",
-    },
-    {
-        title: "Field test at Table Mountain",
-        date: "Dec, 2022",
-        icon: iconField,
-        description: "The EELS robot was field tested for two days at Table Mountain, CA, USA.",
-    },
-    {
       title: "Visiting Researcher at NASA/JPL",
       date: "Nov, 2021",
       icon: iconPosition,

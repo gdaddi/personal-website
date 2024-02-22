@@ -41,8 +41,8 @@ const ProjectsContent = () => {
         <h2>SROC</h2>
         {isVisible.sroc && (
           <div className="project-section">
-            <p>The <a href='https://www.esa.int/ESA_Multimedia/Images/2020/04/SROC'>Space Rider Observer Cube</a> is a 
-            European Space Agency (ESA) funded project, building a small satellite to observe and dock with the Space Rider vehicle. 
+            <p>The <a href='https://www.esa.int/ESA_Multimedia/Images/2020/04/SROC'>Space Rider Observer Cube</a> (SROC) is a project 
+            funded by the European Space Agency (ESA) to build a CubeSat to observe and dock with the <a href='https://en.wikipedia.org/wiki/Space_Rider'>Space Rider</a> vehicle. 
             </p>
             <img src={iconSROC} alt="SROC Project Icon" />
             <p>I was involved with developing a graphical simulation environment to validate SROC's guidance, navigation and control algorithms 

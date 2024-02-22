@@ -36,7 +36,8 @@ function App() {
         <menu>
          <TabButton isSelected={selectedTab === 'tab1'} onSelect={() => handleSelect('tab1')}>News</TabButton>
           <TabButton isSelected={selectedTab === 'tab2'} onSelect={() => handleSelect('tab2')}>Projects</TabButton>
-         <TabButton isSelected={selectedTab === 'tab3'} onSelect={() => handleSelect('tab3')}>Contact</TabButton>
+          <TabButton isSelected={selectedTab === 'tab3'} onSelect={() => handleSelect('tab3')}>Publications</TabButton>
+         <TabButton isSelected={selectedTab === 'tab4'} onSelect={() => handleSelect('tab4')}>Contact</TabButton>
         </menu>
       
         <div id="tab-content">

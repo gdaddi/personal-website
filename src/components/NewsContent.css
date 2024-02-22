@@ -36,7 +36,8 @@
 }
 
 .news-item {
-  border: 1px solid #3d429daa;
+  border: 2px solid #22222faa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   padding: 8px;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -49,7 +50,7 @@
 }
 
 .news-item:hover {
-  background-color: #22266f;
+  background-color: #1b1b2c;
 }
 
 @media (max-width: 768px) {

@@ -1,0 +1,44 @@
+.project-box {
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #1a1a1a;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    color: #d6bfed;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+    max-width: 800px;
+    width: 90%;    
+}
+  
+.project-box:hover {
+    background-color: #1b1b2c;
+    color: #ebe7ef;
+}
+
+.project-section {
+    margin-top: 10px;
+}
+  
+.project-box.active {
+    background-color: #7925d3;
+    color: #ebe7ef;
+}
+  
+.project-box > h2 {
+    color: #ebe7ef;
+    cursor: pointer;
+    font-family: 'Roboto Mono';
+}
+  
+h2:hover {
+    text-decoration: underline;
+}
+  
+.project-section img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+  

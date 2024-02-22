@@ -2,12 +2,12 @@ import planningLogo from './assets/planning.svg'
 import hammerLogo from './assets/hammer.svg'
 import NewsContent from './components/NewsContent';
 import ContactContent from './components/ContactContent';
-import ResumeContent from './components/ResumeContent';
 import iconArm from './assets/arm.svg';
 import iconSchool from './assets/school.svg';
 import iconPaper from './assets/paper.svg';
 import iconField from './assets/field.svg';
 import iconPosition from './assets/position.svg';
+import ProjectsContent from './components/ProjectsContent';
 
 export const CARDS = [
     {
@@ -33,7 +33,7 @@ export const TABCONTENTS = {
         getContent: () => NewsContent,
     },
     tab2: {
-        getContent:() => ResumeContent,
+        getContent:() => ProjectsContent,
     },
     tab3: {
         getContent: () => ContactContent, 
@@ -82,7 +82,7 @@ export const NEWS_ITEMS = [
         description: "Focusing on plasma drilling and melt probe R&D.",
       },
       {
-        title: "Ms.C. Student at PoliTo",
+        title: "M.Sc. Student at PoliTo",
         date: "Sep, 2017",
         icon: iconSchool,
         description: "In Aerospace Engineering.",

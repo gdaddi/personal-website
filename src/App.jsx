@@ -22,7 +22,10 @@ function App() {
       <h3>
         I am Guglielmo Daddi
       </h3>
-
+      <p>
+        I am currently a Visiting Researcher at NASA/JPL, <br /> and a Ph.D. candidate at the Polytechnic of Turin (PoliTo).
+  
+      </p>
       <section id="fact-card">
       <ul>
         {CARDS.map((cardItem) => <FactCard key={cardItem.title} {...cardItem} />)}
@@ -32,6 +35,7 @@ function App() {
       <section id="tab">
         <menu>
          <TabButton isSelected={selectedTab === 'tab1'} onSelect={() => handleSelect('tab1')}>News</TabButton>
+          <TabButton isSelected={selectedTab === 'tab2'} onSelect={() => handleSelect('tab2')}>Projects</TabButton>
          <TabButton isSelected={selectedTab === 'tab3'} onSelect={() => handleSelect('tab3')}>Contact</TabButton>
         </menu>
       

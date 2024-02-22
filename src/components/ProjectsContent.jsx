@@ -28,8 +28,11 @@ const ProjectsContent = () => {
             </p>
             <img src={iconEELS} alt="EELS Project Icon" />
             <p>
-              I was involved in the autonomy team, working on risk-aware planning, system-level autonomy, software infrastructure and reinforcement learning.
-               Over the project, I took part in three field tests in California and Canada, where I tested the algorithms and software infrastructure that was developed.
+              I was involved in the autonomy team and worked on risk-aware planning, system-level autonomy, software infrastructure, and reinforcement learning. 
+              This was my first project contributing to a large code-base (more than 200k lines of code), with over 15 developers.
+            </p>
+            <p>
+            Over the project, I took part in three field tests in California and Canada, where the algorithms and software infrastructure we developed were tested on snow and ice.
             </p>
           </div>
         )}
@@ -39,11 +42,11 @@ const ProjectsContent = () => {
         {isVisible.sroc && (
           <div className="project-section">
             <p>The <a href='https://www.esa.int/ESA_Multimedia/Images/2020/04/SROC'>Space Rider Observer Cube</a> is a 
-            European Space Agency (ESA) funded   project building a small satellite to observe and dock with the Space Rider vehicle. 
+            European Space Agency (ESA) funded project, building a small satellite to observe and dock with the Space Rider vehicle. 
             </p>
             <img src={iconSROC} alt="SROC Project Icon" />
-            <p>I was involved with developing a graphical simulation environment to validate SROC's guidance and navigation algorithms 
-              and supported payload performance analysis.
+            <p>I was involved with developing a graphical simulation environment to validate SROC's guidance, navigation and control algorithms 
+              and also supported the payload's performance analysis.
             </p>
           </div>
         )}
@@ -53,13 +56,13 @@ const ProjectsContent = () => {
         {isVisible.mppd && (
           <div className="project-section">
             <p> 
-              The <a href='https://doi.org/10.2514/1.T6244'>Plasma Drill</a> was a NSA/JPL project that investigated plasma discharges as a way to enhance the performance of <a href='https://en.wikipedia.org/wiki/Cryobot'>melt probes</a>.
-              Plasma drilling consists of fracturing ice through high voltage discharges.
-              These fractures reduce the ice's thermal conductivity, improving the efficiency of melt probes which rely on thermal energy to penetrate the ice. 
+              The <a href='https://doi.org/10.2514/1.T6244'>Plasma Drill</a> project was a research task at NSA/JPL that investigated pulsed plasma discharges 
+              as a way to enhance the performance of <a href='https://en.wikipedia.org/wiki/Cryobot'>melt probes</a> by fracturing ice.
+              Melt probes move through ice and lose heat to the surrounding environment. These fractures reduce the ice's thermal conductivity, improving the efficiency of melt probes which rely on thermal energy to penetrate the ice.
             </p>
             <img src={iconMPPD} alt="MPPD project icon" />
             <p>
-              I was involved with system performance modeling, hardware prototyping, testbed design and experimental validation.
+              I was involved with system performance modeling, hardware prototyping, testbed design, manufacturing, and experimental validation.
             </p>
           </div>
         )}

@@ -50,7 +50,7 @@ export const NEWS_ITEMS = [
     },
     {
       title: "Field test at Athabasca Glacier",
-      date: "Feb, 2020",
+      date: "Sep, 2023",
       icon: iconField,
       description: "The EELS robot was field tested for three weeks on the Athabasca Glacier, AB, Canada.",
       link: 'https://www.cbc.ca/news/canada/edmonton/alberta-glacier-used-as-nasa-training-ground-for-robotic-snake-that-will-explore-outer-space-1.7034061',

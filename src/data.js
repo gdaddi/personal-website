@@ -1,7 +1,6 @@
 import planningLogo from './assets/planning.svg'
 import hammerLogo from './assets/hammer.svg'
 import NewsContent from './components/NewsContent';
-import ContactContent from './components/ContactContent';
 import iconArm from './assets/arm.svg';
 import iconSchool from './assets/school.svg';
 import iconPaper from './assets/paper.svg';
@@ -39,9 +38,6 @@ export const TABCONTENTS = {
     tab3: {
         getContent: () => PublicationsContent,
     },
-    tab4: {
-        getContent: () => ContactContent,
-    }
 };
 
 export const NEWS_ITEMS = [

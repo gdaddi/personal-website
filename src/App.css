@@ -12,3 +12,17 @@
 .read-the-docs {
   color: #888;
 }
+
+.social-icon {
+  font-size: 25px; 
+  margin-right: 30px; 
+  color: #9760b8;
+}
+
+.social-icon:hover {
+  color: #fa64ff; 
+}
+
+.social-icon:last-child {
+  margin-right: 10px;
+}

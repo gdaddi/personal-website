@@ -28,7 +28,7 @@
 .project-box > h2 {
     color: #ebe7ef;
     cursor: pointer;
-    font-family: 'Roboto Mono';
+    /* font-family: 'Roboto Mono'; */
 }
   
 h2:hover {

@@ -42,6 +42,13 @@ export const TABCONTENTS = {
 
 export const NEWS_ITEMS = [
     {
+        title: "EELS paper in Science Robotics",
+        date: "Mar, 2024",
+        icon: iconPaper,
+        description: "Our paper on the EELS robot had front page coverage in Science Robotics!",
+        link: "https://www.science.org/toc/scirobotics/9/88"
+    },
+    {
         title: "EELS paper at IROS",
         date: "Oct, 2023",
         icon: iconPaper,
@@ -89,8 +96,23 @@ export const NEWS_ITEMS = [
     },
 ];
 
-
 export const PUBLICATIONS = [
+    {
+        id: `vaquero2024eels`,
+        title: `EELS: Autonomous snake-like robot with task and motion planning capabilities for ice world exploration`,
+        bibtex: `@article{
+            doi:10.1126/scirobotics.adh8332,
+            author = {T. S. Vaquero  and G. Daddi  and R. Thakker  and M. Paton  and A. Jasour  and M. P. Strub  and R. M. Swan  and R. Royce  and M. Gildner  and P. Tosi  and M. Veismann  and P. Gavrilov  and E. Marteau  and J. Bowkett  and D. Loret de Mola Lemus  and Y. Nakka  and B. Hockman  and A. Orekhov  and T. D. Hasseler  and C. Leake  and B. Nuernberger  and P. Proença  and W. Reid  and W. Talbot  and N. Georgiev  and T. Pailevanian  and A. Archanian  and E. Ambrose  and J. Jasper  and R. Etheredge  and C. Roman  and D. Levine  and K. Otsu  and S. Yearicks  and H. Melikyan  and R. R. Rieber  and K. Carpenter  and J. Nash  and A. Jain  and L. Shiraishi  and M. Robinson  and M. Travers  and H. Choset  and J. Burdick  and A. Gardner  and M. Cable  and M. Ingham  and M. Ono },
+            title = {EELS: Autonomous snake-like robot with task and motion planning capabilities for ice world exploration},
+            journal = {Science Robotics},
+            volume = {9},
+            number = {88},
+            pages = {eadh8332},
+            year = {2024},
+            doi = {10.1126/scirobotics.adh8332},
+            URL = {https://www.science.org/doi/abs/10.1126/scirobotics.adh8332},
+            eprint = {https://www.science.org/doi/pdf/10.1126/scirobotics.adh8332}`
+    },
     {
         id: `thakker2023eels`,
         title: `EELS: Towards Autonomous Mobility in Extreme Terrain with a Versatile Snake Robot with Resilience to Exteroception Failures`,
